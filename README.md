@@ -1,32 +1,25 @@
-# Chessboard_analysis
-This project detects and labels black and white squares on a chessboard using OpenCV. It processes the image, finds square contours, classifies them based on brightness, and labels each square with its type (black/white) at the center. It also prints the total count of each type.
 Chessboard Square Detector
-This project uses OpenCV to detect and classify squares on a chessboard image as either black or white based on their brightness. The program processes the image using adaptive thresholding and edge detection, finds square-like contours, calculates the average color for each detected square, and labels them accordingly. It also displays the total count of black and white squares.
+This project uses OpenCV to detect and label black and white squares on a chessboard image. It processes the image with thresholding and edge detection, finds square contours, and classifies each square based on brightness. The result is a labeled image showing each square's type and the total count of black and white squares.
 
 Features
-Detects individual chessboard squares
+Detects individual squares on a chessboard
 
-Classifies squares as black or white
+Classifies each as black or white using brightness
 
 Labels each square in the image
 
-Displays the final image with classification
+Displays final output with total counts
 
-Counts total number of each square type
+Installation:
+command- pip install opencv-python numpy matplotlib
 
-Installation
-bash
-Copy
-Edit
-pip install opencv-python numpy matplotlib
 Usage
-Replace the image path in the script with your chessboard image path.
+Replace the image path in the script with your own chessboard image.
 
 Run the script.
 
-View the labeled chessboard and square counts.
+View the labeled chessboard and printed square counts.
 
-Output Example
-Total number of Black squares: 32
-
+Example Output:
+Total number of Black squares: 32  
 Total number of White squares: 32
